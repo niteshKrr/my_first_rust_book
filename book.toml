@@ -1,0 +1,19 @@
+[book]
+authors = ["niteshKrr"]
+language = "en"
+multilingual = false
+src = "src"
+
+[build]
+build-dir = "rod_ross"                # the directory where the output is placed
+create-missing = true             # whether or not to create missing pages
+use-default-preprocessors = true  # use the default preprocessors
+extra-watch-dirs = []  
+
+
+[output.html]
+# theme = "my-theme"
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/rust-lang/mdBook"
+git-repository-icon = "fa-github"
