@@ -5,7 +5,7 @@ multilingual = false
 src = "src"
 
 [build]
-build-dir = "rod_ross"                # the directory where the output is placed
+build-dir = "book"                # the directory where the output is placed
 create-missing = true             # whether or not to create missing pages
 use-default-preprocessors = true  # use the default preprocessors
 extra-watch-dirs = []  
